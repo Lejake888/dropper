@@ -1,0 +1,28 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+    text-decoration: underline;
+}
+
+#gameSpace {
+    width: 600px;
+    height: 600px;
+    border: 5px solid grey;
+    background-color: white;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+
+    #floor {
+        width: 600px;
+        height: 50px;
+        background-color: red;
+        bottom: 0;
+    }
+}
