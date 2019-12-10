@@ -1,6 +1,6 @@
 let player = {
     top: 585,
-    left: 700,
+    left: 720,
 }
 
 const move = () => {
@@ -10,11 +10,11 @@ const move = () => {
 
 document.onkeydown = (e) => {
     if (e.keyCode === 37){
-        if (player.left < 450) {
+        if (player.left < 430) {
             console.log("stop")
         }
         else {
-            player.left = player.left - 25
+            player.left = player.left - 20
             console.log("left")
             move()
         }
@@ -25,7 +25,7 @@ document.onkeydown = (e) => {
             console.log("stop")
         }
         else {
-            player.left = player.left + 25
+            player.left = player.left + 20
             console.log("right")
             move()
         }

@@ -12,7 +12,7 @@ h1 {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 600px;
+  width: 630px;
   height: 600px;
   border: 5px solid grey;
   padding-left: 0;
@@ -23,7 +23,7 @@ h1 {
 }
 
 #gameSpace #sky {
-  width: 600px;
+  width: 630px;
   height: 550px;
   background-color: white;
 }
@@ -38,7 +38,7 @@ h1 {
 }
 
 #gameSpace #floor {
-  width: 600px;
+  width: 630px;
   height: 50px;
   background-color: red;
   bottom: 0;
