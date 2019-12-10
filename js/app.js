@@ -1,6 +1,6 @@
 let player = {
     top: 585,
-    left: 420,
+    left: 700,
 }
 
 const move = () => {
