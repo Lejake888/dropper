@@ -1,11 +1,22 @@
 let player = {
     top: 585,
-    left: 720,
+    left: 700
+}
+
+const randomDrop = () => {
+    return Math.floor(Math.random() * 135) + 585   
+}
+
+let enemyBlocks = {
+    top: randomDrop(),
+    left: randomDrop()
 }
 
 const move = () => {
     document.getElementById('player').style.left = player.left + "px"
     document.getElementById('player').style.top = player.top + "px"
+    document.getElementById('enemyBlocks').style.left = enemyBlocks.left + "px"
+    document.getElementById('enemyBlocks').style.top = enemyBlocks.top + "px"
 }
 
 document.onkeydown = (e) => {
@@ -21,7 +32,7 @@ document.onkeydown = (e) => {
 
     }
     else if(e.keyCode === 39){
-        if (player.left > 950) {
+        if (player.left > 960) {
             console.log("stop")
         }
         else {

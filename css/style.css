@@ -28,6 +28,12 @@ h1 {
   background-color: white;
 }
 
+#gameSpace #sky #enemyBlocks {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+}
+
 #gameSpace #sky #player {
   position: absolute;
   width: 50px;

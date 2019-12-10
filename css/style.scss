@@ -24,6 +24,12 @@ h1 {
         height: 550px;
         background-color: white;
 
+        #enemyBlocks {
+            position: absolute;
+            width: 100px;
+            height: 100px;
+        }
+
         #player {
             position: absolute;
             width: 50px;
@@ -32,7 +38,6 @@ h1 {
             top: 585px;
             left: 700px;
         }
-
     }
     #floor {
         width: 630px;
