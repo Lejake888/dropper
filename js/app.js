@@ -1,14 +1,14 @@
 let player = {
     top: 585,
-    left: 700
+    left: 710
 }
 
 const randomDrop = () => {
-    return Math.floor(Math.random() * 135) + 585   
+    return Math.floor(Math.random() * 900) + 170
 }
 
 let enemyBlocks = {
-    top: randomDrop(),
+    top: 0,
     left: randomDrop()
 }
 
@@ -16,7 +16,7 @@ const move = () => {
     document.getElementById('player').style.left = player.left + "px"
     document.getElementById('player').style.top = player.top + "px"
     document.getElementById('enemyBlocks').style.left = enemyBlocks.left + "px"
-    document.getElementById('enemyBlocks').style.top = enemyBlocks.top + "px"
+document.getElementById('enemyBlocks').style.top = enemyBlocks.top + "px"
 }
 
 document.onkeydown = (e) => {
@@ -42,3 +42,4 @@ document.onkeydown = (e) => {
         }
     }
 }
+
